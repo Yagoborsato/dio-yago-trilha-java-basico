@@ -1,14 +1,23 @@
 public class operadores {
     public static void main(String[] args) {
-       int numero = 5;
+        /*int a, b;
 
-       numero = (- numero);
+        a = 6;
+        b = 6;
 
-       System.out.println(numero);
+        String resultado = a==b ?"verdadeiro" : "falso";
 
-       numero =  numero * -1;
-       
-       System.out.println(numero);
 
+        
+        System.out.println(resultado);*/
+
+        boolean condicao1 = true;
+
+        boolean condicao2 = false;
+        if(condicao1 || condicao2 ) {
+            System.out.println("verdadeira");
+        }
+        System.out.println("fim");
+      
     }
 }
